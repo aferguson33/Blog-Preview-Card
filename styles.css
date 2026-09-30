@@ -13,7 +13,7 @@ body{
 }
 
 
-aside, h1, img, p{
+h1, img, p{
     width:70%;
 }
 
@@ -21,11 +21,11 @@ p{
     line-height:30px;
 }
 
-aside{
+.avatar-container p{
     font-weight:bold;
 }
 
-.head-container{
+.main-container{
     border:1px solid black;
     border-radius:8px;
     background-color:white;
@@ -41,7 +41,7 @@ aside{
     margin-bottom:20px;
 }
 
-.head-container button{
+.main-container button{
     border:none;
     width:25%;
     background-color:hsl(47, 88%, 63%);
